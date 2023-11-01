@@ -1,0 +1,56 @@
+
+#services, #service1 {
+    padding: 10px 300px 40px 300px;
+    width:inherit;
+}
+
+    #services .box, #service1 .box {
+        padding: 20px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 0 10px 40px 10px;
+        border: 2px dotted black;
+        color:black;
+        background-image: linear-gradient(pink,rgb(226, 226, 226));
+        box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+        transition: all 0.3s ease-in-out;
+        text-align: center;
+    }
+
+        #services .box:hover, #service1 .box:hover {
+            transform: scale(1.1);
+        }
+
+    #services .title, #service1 .title {
+        font-weight: 700;
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    
+.box .pe{
+    color:black;
+    font-size: 20px;
+}
+.box img{
+    width:210px;
+    border-radius: 45%;
+}
+.container1{
+    width: 900px;
+    background: #fff;
+    margin: 0 auto;
+    padding-left:50px;
+    box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    -o-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    -ms-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    -ms-border-radius: 20px;
+    color:black;
+    background:linear-gradient(rgb(98, 180, 231) 65%,rgb(227, 223, 223));
+}
